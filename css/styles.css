@@ -1,0 +1,473 @@
+.blank {
+    width: 32px;
+    height: 32px;
+    margin: 1px;
+}
+
+.x-axis {
+    width: 64px;
+    height: 32px;
+    margin: 1px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.y-axis {
+    width: 32px;
+    height: 64px;
+    line-height: 64px;
+    margin: 1px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.grid {
+    width: 64px; 
+    height: 64px;
+    margin: 1px; 
+    /* position: relative; */
+}
+
+/*.grid.white {
+    background-color: saddlebrown;
+}
+
+.grid.black {
+    background-color: sandybrown;
+}
+*/
+.grid.active {
+    background-color: yellowgreen;
+}
+
+.grid.movable-scope {
+    background-color: crimson;
+}
+
+.grid.attackable-scope {
+    background-color: lightseagreen;
+}
+
+.grid.checkmate {
+    background-color: darkmagenta;
+}
+
+.chess {
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+}
+
+.chess.black.rook {
+    background-image: url(./../img/chesses/black-rook.png);
+}
+
+.chess.black.knight {
+    background-image: url(./../img/chesses/black-knight.png);
+}
+
+.chess.black.bishop {
+    background-image: url(./../img/chesses/black-bishop.png);
+}
+
+.chess.black.queen {
+    background-image: url(./../img/chesses/black-queen.png);
+}
+
+.chess.black.king {
+    background-image: url(./../img/chesses/black-king.png);
+}
+
+.chess.black.pawn {
+    background-image: url(./../img/chesses/black-pawn.png);
+}
+.chess.black.sheshou {
+    background-image: url(./../img/chesses/black-sheshou.png);
+}
+.chess.black.baodan {
+    background-image: url(./../img/chesses/black-baodan.png);
+}
+.chess.black.yandund {
+    background-image: url(./../img/chesses/black-yandund.png);
+}
+.chess.black.mudund {
+    background-image: url(./../img/chesses/black-mudund.png);
+}
+.chess.black.bingdund {
+    background-image: url(./../img/chesses/black-bingdund.png);
+}
+.chess.white.rook {
+    background-image: url(./../img/chesses/white-rook.png);
+}
+
+.chess.white.knight {
+    background-image: url(./../img/chesses/white-knight.png);
+}
+
+.chess.white.bishop {
+    background-image: url(./../img/chesses/white-bishop.png);
+}
+
+.chess.white.queen {
+    background-image: url(./../img/chesses/white-queen.png);
+}
+
+.chess.white.king {
+    background-image: url(./../img/chesses/white-king.png);
+}
+
+.chess.white.pawn {
+    background-image: url(./../img/chesses/white-pawn.png);
+}
+.chess.white.baoxiang {
+    background-image: url(./../img/chesses/white-baoxiang.png);
+}
+.chess.white.bingdan {
+    background-image: url(./../img/chesses/white-bingdan.png);
+}
+.chess.white.bingdun {
+    background-image: url(./../img/chesses/white-bingdun.png);
+}
+.chess.white.bingjian {
+    background-image: url(./../img/chesses/white-bingjian.png);
+}
+.chess.white.chongfeng {
+    background-image: url(./../img/chesses/white-chongfeng.png);
+}
+.chess.white.leidan {
+    background-image: url(./../img/chesses/white-leidan.png);
+}
+.chess.white.leijian {
+    background-image: url(./../img/chesses/white-leijian.png);
+}
+.chess.white.mudun {
+    background-image: url(./../img/chesses/white-mudun.png);
+}
+.chess.white.yandun {
+    background-image: url(./../img/chesses/white-yandun.png);
+}
+.chess.white.yandund {
+    background-image: url(./../img/chesses/white-yandund.png);
+}
+.chess.white.mudund {
+    background-image: url(./../img/chesses/white-mudund.png);
+}
+.chess.white.bingdund {
+    background-image: url(./../img/chesses/white-bingdund.png);
+}
+.chess.white.baodan {
+    background-image: url(./../img/chesses/white-baodan.png);
+}
+.chess.white.huojian {
+    background-image: url(./../img/chesses/white-huojian.png);
+}
+.chess.black.baodan {
+    background-image: url(./../img/chesses/black-baodan.png);
+}
+.chess.black.baoxiang {
+    background-image: url(./../img/chesses/black-baoxiang.png);
+}
+
+.chess.black.bingdun {
+    background-image: url(./../img/chesses/black-bingdun.png);
+}
+.chess.black.bingjian {
+    background-image: url(./../img/chesses/black-bingjian.png);
+}
+.chess.black.chongfeng {
+    background-image: url(./../img/chesses/black-chongfeng.png);
+}
+.chess.black.huojian {
+    background-image: url(./../img/chesses/black-huojian.png);
+}
+.chess.black.leijian {
+    background-image: url(./../img/chesses/black-leijian.png);
+}
+.chess.black.mudun {
+    background-image: url(./../img/chesses/black-mudun.png);
+}
+.chess.black.leidan {
+    background-image: url(./../img/chesses/black-leidan.png);
+}
+.chess.black.yandun {
+    background-image: url(./../img/chesses/black-yandun.png);
+}
+
+.bg
+{
+   
+    background-color:#D9FFA2;
+    background:url(./../img/chesses/beijing3.png);
+    background-size:100% 120%;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+ /* background-image: url(./../img/chesses/ditu4.png);  */
+    }
+.board 
+{
+    background:rgba(255,255,255,0.3); 
+    width: 596px;
+    min-width: 596px;
+    height: 596px;
+    min-height: 596px;
+    margin: 1px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    align-content: flex-start;
+    /* margin: auto; */
+    background-image: url(./../img/chesses/ditu7.png);
+}
+
+.grid:hover {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 
+        0 0 0.4vw 0 lightslategray,
+        0 0 0.7vw 0.3vw lightslategray;
+}
+
+#progress {
+    width: 596px;
+    height: 596px;
+    margin: 1px;
+}
+.flex.justify-center.item-center.h-screen{
+
+     position: relative;
+     
+    }
+    
+    
+    
+    
+    
+    
+    
+ * {
+        margin: 0;
+        padding: 0;
+      }
+      ul {
+        list-style: none;
+      }
+
+      #wrap 
+      {
+          	
+	border-radius:10px;
+        overflow: hidden;
+        position: relative;
+        width: 380px;
+        height: 680px;
+        margin: 80px auto 0;
+      }
+      #wrap .img-list {
+        display: flex;
+        position: relative;
+        left: 0px;
+        width: 100%;
+        height: 60%;
+        transition: 0.5s ease;
+      }
+       #wrap .text-list {
+        display: flex;
+        position: relative;
+        left: 0px;
+        width: 100%;
+        height: 25%;
+        top:25px;
+        transition: 0.5s ease;
+      }
+
+      
+           
+      #wrap .img-list img {
+        width: 100%;
+        cursor: pointer;
+      }
+
+      #wrap a {
+        position: absolute;
+        top: 30%;
+        transform: translate(0, -50%);
+        display: block;
+        width: 30px;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        user-select: none;
+        font-size: 30px;
+        text-align: center;
+        line-height: 50px;
+        text-decoration: none;
+      }
+
+      #wrap a.left {
+        left: 0;
+        
+      }
+
+      #wrap a.right {
+        right: 0;
+      }
+
+      .circle-list {
+        display: flex;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+	
+        transform: translate(-50%, 0);
+        width: 280px;
+        height: 40px;
+        z-index: 8;
+      }
+	     .circle1-list {
+        display: flex;
+        position: absolute;
+        bottom: 230px;
+        left: 30%;
+        transform: translate(-50%, 0);
+        width: 240px;
+        height: 40px;
+        z-index: 8;
+      }
+      .circle-list > .circle {
+        margin: 0 5px;
+        width: 30px;
+        height: 30px;
+		
+        background-color: #ecf0f1;
+        border-radius: 50%;
+      }
+
+      .circle-list > .circle.active {
+        background-color: #e74c3c;
+      }
+.logo{
+  width: 140px;
+  cursor: pointer;
+}
+#icon
+{
+ 
+width: 80px;
+ left: 16%;
+}
+.paimo
+{
+    position: absolute;
+    left: 27%;
+    width:90px;
+    height: 90px;
+    background-image: url(./../img/chesses/paimo2.png);
+    }
+    .renwu
+    {
+        position: absolute;
+    left: 30%;
+    width:40px;
+    height: 41px;
+    bottom:21%;
+       background-image: url(./../img/chesses/renwu.png); 
+        }
+          .shiye
+    {
+        position: absolute;
+    left: 68%;
+    width:50px;
+    height: 50px;
+       background-image: url(./../img/chesses/shiye.png); 
+        }
+        .t
+        {
+            font-family:KaiTi;
+            text-align: center;
+            font-size: 40px;
+            background-color:#FFFFFF;
+            opacity: 0.7;
+            }
+      .cao
+      {
+          
+          font-family:KaiTi;
+        
+            font-size: 40px;
+          }
+   
+              
+              
+              
+              
+              
+              
+              
+              :root {
+  --offset: 6px;
+
+}
+
+
+
+h2
+{
+  
+      position: absolute;
+left:1%;
+    width: 980px;
+  font-size: 100px;
+  font-family: Helvetica;
+  line-height: 1.06;
+  letter-spacing: -0.02em;
+  color: #1d1d1f;
+}
+
+.mask 
+{
+       border:2px solid #D9FFA2;
+	padding:13px 5px; 
+	background:#FFFFFF;
+	width:430px;
+	border-radius:6px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  margin-top: var(--offset);
+}
+
+.mask span 
+{
+    font-family:KaiTi;
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  top: 60px;
+   font-size:21px;
+  padding-bottom: var(--offset);
+  background-color:Black;
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+}
+
+.mask span[data-show] {
+  transform: translateY(-50%);
+  transition: 1s transform ease-in-out;
+}
+
+.mask span[data-up] {
+  transform: translateY(-200%);
+  transition: 1s transform ease-in-out;
+}
+.wen
+{
+     font-family:KaiTi;
+   
+       font-size:23px;
+    }
