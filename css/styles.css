@@ -59,150 +59,150 @@
 }
 
 .chess.black.rook {
-    background-image: url(./../img/chesses/black-rook.png);
+    background-image: url(./../img/chess/chesses/black-rook.png);
 }
 
 .chess.black.knight {
-    background-image: url(./../img/chesses/black-knight.png);
+    background-image: url(./../img/chess/chesses/black-knight.png);
 }
 
 .chess.black.bishop {
-    background-image: url(./../img/chesses/black-bishop.png);
+    background-image: url(./../img/chess/chesses/black-bishop.png);
 }
 
 .chess.black.queen {
-    background-image: url(./../img/chesses/black-queen.png);
+    background-image: url(./../img/chess/chesses/black-queen.png);
 }
 
 .chess.black.king {
-    background-image: url(./../img/chesses/black-king.png);
+    background-image: url(./../img/chess/chesses/black-king.png);
 }
 
 .chess.black.pawn {
-    background-image: url(./../img/chesses/black-pawn.png);
+    background-image: url(./../img/chess/chesses/black-pawn.png);
 }
 .chess.black.sheshou {
-    background-image: url(./../img/chesses/black-sheshou.png);
+    background-image: url(./../img/chess/chesses/black-sheshou.png);
 }
 .chess.black.baodan {
-    background-image: url(./../img/chesses/black-baodan.png);
+    background-image: url(./../img/chess/chesses/black-baodan.png);
 }
 .chess.black.yandund {
-    background-image: url(./../img/chesses/black-yandund.png);
+    background-image: url(./../img/chess/chesses/black-yandund.png);
 }
 .chess.black.mudund {
-    background-image: url(./../img/chesses/black-mudund.png);
+    background-image: url(./../img/chess/chesses/black-mudund.png);
 }
 .chess.black.bingdund {
-    background-image: url(./../img/chesses/black-bingdund.png);
+    background-image: url(./../img/chess/chesses/black-bingdund.png);
 }
 .chess.white.rook {
-    background-image: url(./../img/chesses/white-rook.png);
+    background-image: url(./../img/chess/chesses/white-rook.png);
 }
 
 .chess.white.knight {
-    background-image: url(./../img/chesses/white-knight.png);
+    background-image: url(./../img/chess/chesses/white-knight.png);
 }
 
 .chess.white.bishop {
-    background-image: url(./../img/chesses/white-bishop.png);
+    background-image: url(./../img/chess/chesses/white-bishop.png);
 }
 
 .chess.white.queen {
-    background-image: url(./../img/chesses/white-queen.png);
+    background-image: url(./../img/chess/chesses/white-queen.png);
 }
 
 .chess.white.king {
-    background-image: url(./../img/chesses/white-king.png);
+    background-image: url(./../img/chess/chesses/white-king.png);
 }
 
 .chess.white.pawn {
-    background-image: url(./../img/chesses/white-pawn.png);
+    background-image: url(./../img/chess/chesses/white-pawn.png);
 }
 .chess.white.baoxiang {
-    background-image: url(./../img/chesses/white-baoxiang.png);
+    background-image: url(./../img/chess/chesses/white-baoxiang.png);
 }
 .chess.white.bingdan {
-    background-image: url(./../img/chesses/white-bingdan.png);
+    background-image: url(./../img/chess/chesses/white-bingdan.png);
 }
 .chess.white.bingdun {
-    background-image: url(./../img/chesses/white-bingdun.png);
+    background-image: url(./../img/chess/chesses/white-bingdun.png);
 }
 .chess.white.bingjian {
-    background-image: url(./../img/chesses/white-bingjian.png);
+    background-image: url(./../img/chess/chesses/white-bingjian.png);
 }
 .chess.white.chongfeng {
-    background-image: url(./../img/chesses/white-chongfeng.png);
+    background-image: url(./../img/chess/chesses/white-chongfeng.png);
 }
 .chess.white.leidan {
-    background-image: url(./../img/chesses/white-leidan.png);
+    background-image: url(./../img/chess/chesses/white-leidan.png);
 }
 .chess.white.leijian {
-    background-image: url(./../img/chesses/white-leijian.png);
+    background-image: url(./../img/chess/chesses/white-leijian.png);
 }
 .chess.white.mudun {
-    background-image: url(./../img/chesses/white-mudun.png);
+    background-image: url(./../img/chess/chesses/white-mudun.png);
 }
 .chess.white.yandun {
-    background-image: url(./../img/chesses/white-yandun.png);
+    background-image: url(./../img/chess/chesses/white-yandun.png);
 }
 .chess.white.yandund {
-    background-image: url(./../img/chesses/white-yandund.png);
+    background-image: url(./../img/chess/chesses/white-yandund.png);
 }
 .chess.white.mudund {
     background-image: url(./../img/chesses/white-mudund.png);
 }
 .chess.white.bingdund {
-    background-image: url(./../img/chesses/white-bingdund.png);
+    background-image: url(./../img/chess/chesses/white-bingdund.png);
 }
 .chess.white.baodan {
     background-image: url(./../img/chesses/white-baodan.png);
 }
 .chess.white.huojian {
-    background-image: url(./../img/chesses/white-huojian.png);
+    background-image: url(./../img/chess/chesses/white-huojian.png);
 }
 .chess.black.baodan {
-    background-image: url(./../img/chesses/black-baodan.png);
+    background-image: url(./../img/chess/chesses/black-baodan.png);
 }
 .chess.black.baoxiang {
-    background-image: url(./../img/chesses/black-baoxiang.png);
+    background-image: url(./../img/chess/chesses/black-baoxiang.png);
 }
 
 .chess.black.bingdun {
-    background-image: url(./../img/chesses/black-bingdun.png);
+    background-image: url(./../img/chess/chesses/black-bingdun.png);
 }
 .chess.black.bingjian {
-    background-image: url(./../img/chesses/black-bingjian.png);
+    background-image: url(./../img/chess/chesses/black-bingjian.png);
 }
 .chess.black.chongfeng {
-    background-image: url(./../img/chesses/black-chongfeng.png);
+    background-image: url(./../img/chess/chesses/black-chongfeng.png);
 }
 .chess.black.huojian {
-    background-image: url(./../img/chesses/black-huojian.png);
+    background-image: url(./../img/chess/chesses/black-huojian.png);
 }
 .chess.black.leijian {
-    background-image: url(./../img/chesses/black-leijian.png);
+    background-image: url(./../img/chess/chesses/black-leijian.png);
 }
 .chess.black.mudun {
-    background-image: url(./../img/chesses/black-mudun.png);
+    background-image: url(./../img/chess/chesses/black-mudun.png);
 }
 .chess.black.leidan {
-    background-image: url(./../img/chesses/black-leidan.png);
+    background-image: url(./../img/chess/chesses/black-leidan.png);
 }
 .chess.black.yandun {
-    background-image: url(./../img/chesses/black-yandun.png);
+    background-image: url(./../img/chess/chesses/black-yandun.png);
 }
 
 .bg
 {
    
     background-color:#D9FFA2;
-    background:url(./../img/chesses/beijing3.png);
+    background:url(./../img/chess/chesses/beijing3.png);
     background-size:100% 120%;
     background-repeat:no-repeat;
     background-position:center;
     background-attachment:fixed;
- /* background-image: url(./../img/chesses/ditu4.png);  */
+ /* background-image: url(./../img/chess/chesses/ditu4.png);  */
     }
 .board 
 {
@@ -219,7 +219,7 @@
     position: absolute;
     align-content: flex-start;
     /* margin: auto; */
-    background-image: url(./../img/chesses/ditu7.png);
+    background-image: url(./../img/chess/chesses/ditu7.png);
 }
 
 .grid:hover {
@@ -364,7 +364,7 @@ width: 80px;
     left: 27%;
     width:90px;
     height: 90px;
-    background-image: url(./../img/chesses/paimo2.png);
+    background-image: url(./../img/chess/chesses/paimo2.png);
     }
     .renwu
     {
@@ -373,7 +373,7 @@ width: 80px;
     width:40px;
     height: 41px;
     bottom:21%;
-       background-image: url(./../img/chesses/renwu.png); 
+       background-image: url(./../img/chess/chesses/renwu.png); 
         }
           .shiye
     {
@@ -381,7 +381,7 @@ width: 80px;
     left: 68%;
     width:50px;
     height: 50px;
-       background-image: url(./../img/chesses/shiye.png); 
+       background-image: url(./../img/chess/chesses/shiye.png); 
         }
         .t
         {
