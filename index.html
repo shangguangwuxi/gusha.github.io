@@ -443,15 +443,15 @@ var icon=document.getElementById("icon")
 icon.onclick=function(){
   if(mySong.paused){
     mySong.play();
-    icon.src="../western-chess-master/bgm/pause.png"
+    icon.src="../bgm/pause.png"
   }else{
     mySong.pause();
-icon.src="../western-chess-master/bgm/play.png"
+icon.src="../bgm/play.png"
   }
 }
 function replaceDoc()
 {
-    window.location.replace("../index.html")
+    window.location.replace("./index.html")
 }
 setInterval(function () {
   const show = document.querySelector('span[data-show]')
